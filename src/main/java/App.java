@@ -14,7 +14,7 @@ public class App {
 
             switch (choice) {
                 case "encrypt" -> {
-                    System.out.println("Encrypt your message by entering it in the next line");
+                    System.out.println("To decrypt a message enter the message below");
                     String input = myScanner.nextLine();
                     System.out.println("============================");
                     System.out.println("Enter a key");
@@ -28,7 +28,7 @@ public class App {
                     System.out.println("============================");
                 }
                 case "decrypt" -> {
-                    System.out.println("To decrypt a message enter it below");
+                    System.out.println("To decrypt a message enter the message below");
                     String sema = myScanner.nextLine();
                     System.out.println("============================");
                     System.out.println("Enter the key you used");
